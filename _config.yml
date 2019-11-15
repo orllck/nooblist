@@ -12,3 +12,6 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+baseurl: /nooblist
+url: https://orllck.github.io/
