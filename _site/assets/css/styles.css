@@ -16,7 +16,13 @@
 
 .para-quote > span { text-align: right; font-size: 2rem; font-weight: 400; }
 
+.para-quote:hover { color: #F5A623; }
+
 .para { font-family: Montserrat; font-size: 1.5rem; }
+
+.para > a { text-decoration: none; color: #2C2C2C; font-weight: 600; }
+
+.para > a:hover { text-decoration: none; color: #F5A623; }
 
 #mid { background-color: #F5A623; padding-top: 2rem; padding-bottom: 2rem; }
 
@@ -40,8 +46,8 @@
 
 .spaceBB { margin-bottom: 16rem; }
 
-h3 > a { color: #2C2C2C; text-decoration: none; }
+#domains > a { color: #2C2C2C; text-decoration: none; font-size: 2rem; }
 
-h3 > a:hover { color: #F5A623; text-decoration: none; }
+#domains > a:hover { color: #F5A623; text-decoration: none; }
 
-h3 > a > span { color: #F5A623; text-decoration: none; font-weight: 600; }
+#domains > a > span { color: #F5A623; text-decoration: none; font-weight: 600; }

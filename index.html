@@ -50,31 +50,27 @@ title: NoobList.org - Everybody start as a noob.
     </div>
     <div class="col-7">
       <div class="spaceb">
-        <h2 class="para-title">Would you like to create a NoobList of a specific discipline ? </h2>
-        <p class="para">Complete this form. link</p>
+        <h2 class="para-title">Would you like to have a NoobList of specific disciplines ? </h2>
+        <p class="para">Complete the form <a href="https://forms.gle/TtN2X3kXQRuFcZyc8">here</a></p>
       </div>
       <div class="spacet spaceb">
-        <h2 class="para-title">Would you like to be a part of a group of experts ? </h2>
-        <p class="para">Complete a form below with the best contents you learn from. We will send you an email after checking.</p>
-      </div>
-      <div class="spacet spaceb">
-        <h2 class="para-title">Would you like to recommend an expert ? </h2>
-        <p class="para">Complete this form. link</p>
+        <h2 class="para-title">Would you like to recommend experts of a specific discipline ? </h2>
+        <p class="para">Complete the form <a href="https://forms.gle/H1jKfCAsZNWpaVWVA">here</a></p>
       </div>
     </div>
   </div>
 </div>
 
-<div class="container">
+<div class="container spaceB">
   <div class="row justify-content-center">
     <h2 id="mid-title" class="align-center spacet spaceb">NoobLists under construction.<br><span>Participate !</span></h2>
   </div>
-  <div class="col-8 offset-4">
-    <ul>
+  <div class="col-12">
+    <div class="row justify-content-center" id="domains">
       {% assign work_items = site.data.topic | sort: 'name' %}
       {% for item in work_items %}
-      <h3 class="spacet spaceb"><a href="{{ item.form_url }}"><span>.</span> {{ item.name | capitalize }}</a></h3>
+      <a href="https://forms.gle/p9cGNiEmR5s3QKQE7"> {{ item.name | capitalize }}<span>-</span> </a>
       {% endfor %}
-    </ul>
+    </div>
   </div>
 </div>
