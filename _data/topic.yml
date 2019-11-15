@@ -1,0 +1,75 @@
+- name: agile
+  form_url:
+  content:
+    one:
+      type:
+      author:
+    two:
+      type:
+      author:
+    three:
+      type:
+      author:
+    four:
+      type:
+      author:
+    five:
+      type:
+      author:
+    six:
+      type:
+      author:
+    seven:
+      type:
+      author:
+    eight:
+      type:
+      author:
+    nine:
+      type:
+      author:
+    ten:
+      type:
+      author:
+- name: algebra
+  form_url:
+- name: artificial intelligence
+  form_url: https://docs.google.com/forms/d/e/1FAIpQLSe_NFeZiRNdv3QL5rNOVJnUx3bHeSOCe6DfreLJPAI6QlZc0w/viewform?usp=sf_link
+- name: big data
+  form_url:
+- name: biotechnology
+  form_url:
+- name: blockchain
+  form_url:
+- name: cybersecurity
+  form_url:
+- name: e-commerce
+  form_url:
+- name: finance
+  form_url:
+- name: innovation
+  form_url:
+- name: internet of things
+  form_url:
+- name: logistics
+  form_url:
+- name: digital marketing
+  form_url:
+- name: mobile application
+  form_url:
+- name: neuroscience
+  form_url:
+- name: quantum computing
+  form_url:
+- name: robotics
+  form_url:
+- name: social networks
+  form_url:
+- name: sustainable energy
+  form_url:
+- name: startup
+  form_url:
+- name: urbanisation
+  form_url:
+- name: web design
+  form_url:

@@ -1,0 +1,45 @@
+* { color: #2C2C2C; font-family: Montserrat; }
+
+#border { background-color: #F5A623; height: 10px; }
+
+#header { font-family: "Roboto Slab"; font-weight: 700; font-size: 5rem; color: #2C2C2C; }
+
+#header > span { color: #F5A623; }
+
+#header-sub { font-family: Montserrat; font-weight: 400; font-size: 1.8rem; color: #2C2C2C; }
+
+#side-title { color: #F5A623; font-family: Montserrat; font-size: 3rem; }
+
+.para-title { font-family: "Roboto Slab"; font-size: 3rem; font-weight: 400; }
+
+.para { font-family: Montserrat; font-size: 1.5rem; }
+
+#mid { background-color: #F5A623; padding-top: 2rem; padding-bottom: 2rem; }
+
+#mi-title { color: white; font-family: Montserrat; font-size: 4rem; font-weight: 600; text-align: left; }
+
+#mid-title { color: #2C2C2C; font-family: Montserrat; font-size: 3rem; font-weight: 600; }
+
+#mid-title > span { color: #F5A623; }
+
+.align-center { text-align: center; }
+
+.spacet { margin-top: 4rem; }
+
+.spaceb { margin-bottom: 4rem; }
+
+.spaceT { margin-top: 12rem; }
+
+.spaceB { margin-bottom: 12rem; }
+
+.spaceTT { margin-top: 16rem; }
+
+.spaceBB { margin-bottom: 16rem; }
+
+h3 > a { color: #2C2C2C; text-decoration: none; }
+
+h3 > a:hover { color: #F5A623; text-decoration: none; }
+
+h3 > a > span { color: #F5A623; text-decoration: none; font-weight: 600; }
+
+/*# sourceMappingURL=styles.css.map */

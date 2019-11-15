@@ -1,0 +1,25 @@
+---
+layout: default
+title: topic
+---
+<h1>Topic</h1>
+
+<ul>
+  {% assign work_items = site.data.topic | sort: 'name' %}
+  {% for item in work_items %}
+    <h1> {{ item.name }}</h1>
+    <h3> {{ item.domain }}</h3>
+    <ol>
+      <li>{{ item.content.one }}</li>
+      <li>{{ item.content.two }}</li>
+      <li>{{ item.content.three }}</li>
+      <li>{{ item.content.four }}</li>
+      <li>{{ item.content.five }}</li>
+      <li>{{ item.content.six }}</li>
+      <li>{{ item.content.seven }}</li>
+      <li>{{ item.content.eight }}</li>
+      <li>{{ item.content.nine }}</li>
+      <li>{{ item.content.ten }}</li>
+    </ol>
+  {% endfor %}
+</ul>

@@ -1,0 +1,74 @@
+---
+layout: default
+title: NoobList.org - Everybody start as a noob.
+---
+<div id="head" class="container-fluid spaceT spaceBB">
+  <div class="container">
+    <h1 id="header">NoobList<span>.</span>org</h1>
+    <h3 id="header-sub">Learn from the best contents.</h3>
+  </div>
+</div>
+
+<div class="container spacet spaceb">
+  <div class="row">
+    <div class="col-5">
+      <h3 id="side-title">Manifesto</h3>
+    </div>
+    <div class="col-7">
+      <div class="spaceb">
+        <h2 class="para-title">Because every experts start as a noob.</h2>
+        <p class="para">Each person as the potential to become an expert. This is the purpose of NoobList : help people who want to learn about a discipline to get advices on the content they should use.</p>
+      </div>
+      <div class="spacet spaceb">
+        <h2 class="para-title">NoobList is an open educational resources plateform.</h2>
+        <p class="para">The principle is simple : a group of experts in a specific domain votes for best contents for learning about the discipline. The list of best contents is published on the plateform for free.</p>
+      </div>
+      <div class="spacet spaceb">
+        <h2 class="para-title">NoobList is a participative.</h2>
+        <p class="para">We don’t believe that one person will have the absolute knowledge. Everybody can send a content on a discipline, this content will be reviewed by the group of experts for vote. If 80% of the group consider the content as pertinent, it will be add to the list.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="mid" class="container-fluid spaceT spaceB">
+  <div class="row justify-content-center">
+    <p id="mi-title" class="align-center col-10">We are in early-stage of the project, we currently collect discipline contents for expert reviewed. <br> Be appart of NoobList and help novices to become experts by sharing your best learning content.</p>
+  </div>
+</div>
+
+<div class="container spacet spaceb">
+  <div class="row">
+    <div class="col-5">
+      <h3 id="side-title">Participate</h3>
+    </div>
+    <div class="col-7">
+      <div class="spaceb">
+        <h2 class="para-title">Would you like to create a NoobLists of a specific discipline ? </h2>
+        <p class="para">Complete this form. link</p>
+      </div>
+      <div class="spacet spaceb">
+        <h2 class="para-title">Would you like to be appart of group of expert ? </h2>
+        <p class="para">Complete a form below with best contents you learn from. We will send you an email after checking.</p>
+      </div>
+      <div class="spacet spaceb">
+        <h2 class="para-title">Would you like to recommend an expert ? </h2>
+        <p class="para">Complete this form. link</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <h2 id="mid-title" class="align-center spacet spaceb">NoobLists under construction.<br><span>Participate !</span></h2>
+  </div>
+  <div class="col-8 offset-4">
+    <ul>
+      {% assign work_items = site.data.topic | sort: 'name' %}
+      {% for item in work_items %}
+      <h3 class="spacet spaceb"><a href="{{ item.form_url }}"><span>.</span> {{ item.name | capitalize }}</a></h3>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
