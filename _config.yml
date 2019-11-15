@@ -15,3 +15,8 @@ defaults:
 
 baseurl: /nooblist
 url: https://orllck.github.io/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
