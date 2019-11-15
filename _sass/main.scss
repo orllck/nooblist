@@ -3,7 +3,7 @@ $font-side: 'Roboto Slab';
 $font-header: 'Roboto Slab';
 $blue: #386CA7;
 $black: #2C2C2C;
-$orange: #F5A623;
+$mainColor: #F5A623;
 
 * {
   color: $black;
@@ -11,7 +11,7 @@ $orange: #F5A623;
 }
 
 #border {
-  background-color: $orange;
+  background-color: $mainColor;
   height: 10px;
 }
 
@@ -23,18 +23,18 @@ $orange: #F5A623;
 }
 
 #header > span {
-  color: $orange;
+  color: $mainColor;
 }
 
 #header-sub {
   font-family: $font-title;
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   color: $black;
 }
 
 #side-title {
-  color: $orange;
+  color: $mainColor;
   font-family: $font-title;
   font-size: 3rem;
 }
@@ -45,13 +45,26 @@ $orange: #F5A623;
   font-weight: 400;
 }
 
+.para-quote {
+  font-family: $font-side;
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+.para-quote > span {
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
 .para {
   font-family: $font-title;
   font-size: 1.5rem;
 }
 
 #mid {
-  background-color: $orange;
+  background-color: $mainColor;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -72,7 +85,7 @@ $orange: #F5A623;
 }
 
 #mid-title > span {
-  color: $orange;
+  color: $mainColor;
 }
 
 .align-center {
@@ -109,12 +122,12 @@ h3 > a {
 }
 
 h3 > a:hover {
-  color: $orange;
+  color: $mainColor;
   text-decoration: none;
 }
 
 h3 > a >span {
-  color: $orange;
+  color: $mainColor;
   text-decoration: none;
   font-weight: 600;
 }

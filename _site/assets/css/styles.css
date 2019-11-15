@@ -6,11 +6,15 @@
 
 #header > span { color: #F5A623; }
 
-#header-sub { font-family: Montserrat; font-weight: 400; font-size: 1.8rem; color: #2C2C2C; }
+#header-sub { font-family: Montserrat; font-weight: 400; font-size: 1.3rem; color: #2C2C2C; }
 
 #side-title { color: #F5A623; font-family: Montserrat; font-size: 3rem; }
 
 .para-title { font-family: "Roboto Slab"; font-size: 3rem; font-weight: 400; }
+
+.para-quote { font-family: "Roboto Slab"; font-size: 3rem; font-weight: 400; text-align: left; }
+
+.para-quote > span { text-align: right; font-size: 2rem; font-weight: 400; }
 
 .para { font-family: Montserrat; font-size: 1.5rem; }
 
