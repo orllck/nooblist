@@ -4,7 +4,9 @@
 
 #header { font-family: "Roboto Slab"; font-weight: 700; font-size: 5rem; color: #2C2C2C; }
 
-#header > span { color: #F5A623; }
+#header > .point { color: #F5A623; font-weight: 600; }
+
+#header > .extension { color: #2C2C2C; font-weight: 300; font-family: "Roboto Slab"; }
 
 #header-sub { font-family: Montserrat; font-weight: 400; font-size: 1.3rem; color: #2C2C2C; }
 
@@ -51,3 +53,9 @@
 #domains > a:hover { color: #F5A623; text-decoration: none; }
 
 #domains > a > span { color: #F5A623; text-decoration: none; font-weight: 600; }
+
+#social > a > span > img { width: 30px; }
+
+#social > a { text-decoration: none; color: #2C2C2C; }
+
+#social > a:hover { color: #F5A623; }

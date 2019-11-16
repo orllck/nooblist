@@ -4,8 +4,13 @@ title: NoobList.org - Everybody start as a noob.
 ---
 <div id="head" class="container-fluid spaceT spaceBB">
   <div class="container">
-    <h1 id="header">NoobList<span>.</span>org</h1>
-    <h3 id="header-sub">Start learning from the best contents.</h3>
+
+    <div class="row">
+      <h1 id="header">NoobList<span class="point">.</span><span class="extension">org</span></h1><span>&nbsp;&nbsp;beta</span>
+    </div>
+    <div class="row">
+      <h3 id="header-sub">Start learning from the best contents.</h3>
+    </div>
   </div>
 </div>
 
@@ -69,8 +74,11 @@ title: NoobList.org - Everybody start as a noob.
     <div class="row justify-content-center" id="domains">
       {% assign work_items = site.data.topic | sort: 'name' %}
       {% for item in work_items %}
-      <a href="https://forms.gle/p9cGNiEmR5s3QKQE7"> {{ item.name | capitalize }}<span>-</span> </a>
+      <a href="https://forms.gle/p9cGNiEmR5s3QKQE7"> {{ item.name | capitalize }}<span>&nbsp;.&nbsp;</span> </a>
       {% endfor %}
     </div>
+  </div>
+  <div class="row justify-content-center spaceT spaceB">
+    <h4 id="social"><a href="https://twitter.com/NoobList"><span><img src="assets/Twitter_Social_Icon_Circle_Color.png" alt=""></span>&nbsp;Twitter</a></h4>
   </div>
 </div>

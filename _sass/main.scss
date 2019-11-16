@@ -22,8 +22,15 @@ $mainColor: #F5A623;
   color: $black;
 }
 
-#header > span {
+#header > .point {
   color: $mainColor;
+  font-weight: 600;
+}
+
+#header > .extension {
+  color: $black;
+  font-weight: 300;
+  font-family: $font-side;
 }
 
 #header-sub {
@@ -147,4 +154,17 @@ $mainColor: #F5A623;
   color: $mainColor;
   text-decoration: none;
   font-weight: 600;
+}
+
+#social > a > span > img {
+  width: 30px;
+}
+
+#social > a {
+  text-decoration: none;
+  color: $black;
+}
+
+#social > a:hover {
+  color: $mainColor;
 }
