@@ -6,9 +6,8 @@
 - name: e-commerce
 - name: digital marketing
 - name: finance
-- name: innovation
 - name: internet of things
-- name: logistics
+- name: supply chain
 - name: mobile application
 - name: neuroscience
 - name: quantum computing
@@ -16,5 +15,10 @@
 - name: social networks
 - name: sustainable energy
 - name: startup
-- name: urbanisation
-- name: web design
+- name: urbanization
+- name: web development
+- name: physics
+- name: algebra
+- name: economics
+- name: sociology
+- name: psychology
